@@ -1,0 +1,21 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "Api para el proyecto del curso en la nube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Josimar Zapata",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.3",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
